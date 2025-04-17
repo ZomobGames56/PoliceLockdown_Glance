@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219a2fb0fe1e4a240af7c16a4a0b0804, type: 3}
+  m_Name: Bus
+  m_EditorClassIdentifier: 
+  isAvailable: 1
+  Price: 0
+  Health: 50
+  FuelCapacity: 100
+  Speed: 5
+  Handling: 10

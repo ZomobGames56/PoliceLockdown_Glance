@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5422271002662575438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6553638249331065678}
+  - component: {fileID: 4175634075153134280}
+  m_Layer: 0
+  m_Name: SaveState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6553638249331065678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422271002662575438}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.859787, y: -34.542984, z: -4.4891815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4175634075153134280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422271002662575438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367ae4d0948716446ae6f1a64548544f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savedData:
+    coin: 0
+    carValue: 0
+    highScore: 0
+    carData: []
+  carObjects:
+  - {fileID: 11400000, guid: 9960f652f41d4064d9474c70cc40bab9, type: 2}
+  - {fileID: 11400000, guid: 7651872ed14ac704bb99a4ebdeecc410, type: 2}
+  - {fileID: 11400000, guid: 5c2f58c95fb058845a9636f78a7f206b, type: 2}
+  - {fileID: 11400000, guid: d2bde1919c2becb49945095f9b36a50a, type: 2}
+  - {fileID: 11400000, guid: f25423ec15f809b46b28067d1480eed4, type: 2}
+  - {fileID: 11400000, guid: be5020414618f9d4e9d202d00208b09c, type: 2}
+  - {fileID: 11400000, guid: 3ea55f8dd552cd84d8eb73d461c09444, type: 2}
+  - {fileID: 11400000, guid: aed8598e19a44924fb1367783b034f87, type: 2}
+  - {fileID: 11400000, guid: dbf3f95ac54d4424482746d172c51b6a, type: 2}
+  - {fileID: 11400000, guid: 5ac6728e6f600e346883dadc6066fb1e, type: 2}
+  gameData: {fileID: 11400000, guid: c97a160578908824abab2120ad7d45a0, type: 2}
